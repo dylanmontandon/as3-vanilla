@@ -5,7 +5,7 @@ package org.osflash.vanilla.testdata
 	 */
 	public class PersonTransientFields
 	{
-        [Transient]
+        [TransientVanilla]
 		public var name : String;
 		public var age : uint;
 		public var artists : Array;
